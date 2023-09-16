@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/santa/static/css/main.d68ada43.css",
-    "main.js": "/santa/static/js/main.852b2ad9.js",
+    "main.css": "/santa/static/css/main.eea3a065.css",
+    "main.js": "/santa/static/js/main.e79e2689.js",
     "static/media/CooperArabic.ttf": "/santa/static/media/CooperArabic.70ee465500e22b36f6cb.ttf",
+    "static/media/03 - Ahmed Santa.mp3": "/santa/static/media/03 - Ahmed Santa.0085f4563f79c269b572.mp3",
+    "static/media/01 - Ahmed Santa.mp3": "/santa/static/media/01 - Ahmed Santa.f7715d1ce472d175c99b.mp3",
+    "static/media/02 - Ahmed Santa.mp3": "/santa/static/media/02 - Ahmed Santa.820734389ca212df5279.mp3",
     "index.html": "/santa/index.html",
-    "main.d68ada43.css.map": "/santa/static/css/main.d68ada43.css.map",
-    "main.852b2ad9.js.map": "/santa/static/js/main.852b2ad9.js.map"
+    "main.eea3a065.css.map": "/santa/static/css/main.eea3a065.css.map",
+    "main.e79e2689.js.map": "/santa/static/js/main.e79e2689.js.map"
   },
   "entrypoints": [
-    "static/css/main.d68ada43.css",
-    "static/js/main.852b2ad9.js"
+    "static/css/main.eea3a065.css",
+    "static/js/main.e79e2689.js"
   ]
 }
