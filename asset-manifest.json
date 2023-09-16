@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/santa/static/css/main.d68ada43.css",
+    "main.js": "/santa/static/js/main.852b2ad9.js",
+    "static/media/CooperArabic.ttf": "/santa/static/media/CooperArabic.70ee465500e22b36f6cb.ttf",
+    "index.html": "/santa/index.html",
+    "main.d68ada43.css.map": "/santa/static/css/main.d68ada43.css.map",
+    "main.852b2ad9.js.map": "/santa/static/js/main.852b2ad9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d68ada43.css",
+    "static/js/main.852b2ad9.js"
+  ]
+}
