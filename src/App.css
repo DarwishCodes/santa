@@ -1,0 +1,98 @@
+@font-face {
+  font-family: CooperArabic;
+  src: url(./CooperArabic.ttf);
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.button {
+  font-family: "CooperArabic", sans-serif !important;
+  text-decoration: none;
+  font-size: 25px;
+  color: #222;
+  padding: 25px 50px;
+  position: relative;
+  border: 3px solid #222;
+  transition: all 0.2s;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.button:before,
+.button:after,
+span:before,
+span:after {
+  content: "";
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: #222;
+  z-index: -1;
+  transition: all 0.1s;
+}
+
+.button:before {
+  top: 100%;
+  left: 0%;
+}
+
+.button:hover:before {
+  top: 0;
+  left: 0;
+}
+
+.button:after {
+  top: -100%;
+  right: 0;
+  transition-delay: 0.3s;
+}
+
+.button:hover:after {
+  top: 0;
+  right: 0;
+}
+
+.button span:before {
+  top: -100%;
+  left: 25%;
+  transition-delay: 0.1s;
+}
+
+.button:hover span:before {
+  top: 0;
+  left: 25%;
+}
+
+.button span:after {
+  bottom: -100%;
+  right: 25%;
+  transition-delay: 0.2s;
+}
+
+.button:hover span:after {
+  bottom: 0;
+  right: 25%;
+}
+
+.button:hover {
+  color: #fff;
+  cursor: pointer;
+}
