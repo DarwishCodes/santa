@@ -1,9 +1,12 @@
 import "./App.css";
+import sound1 from "./01 - Ahmed Santa.mp3";
+import sound2 from "./02 - Ahmed Santa.mp3";
+import sound3 from "./03 - Ahmed Santa.mp3";
 
 function App() {
-  const audio1 = new Audio("/01 - Ahmed Santa.mp3");
-  const audio2 = new Audio("/02 - Ahmed Santa.mp3");
-  const audio3 = new Audio("/03 - Ahmed Santa.mp3");
+  const audio1 = new Audio(sound1);
+  const audio2 = new Audio(sound2);
+  const audio3 = new Audio(sound3);
 
   function pauseAllAudios() {
     audio1.currentTime = 0;
@@ -34,16 +37,16 @@ function App() {
             <span>اجي اتكلم</span>
           </button>
         </div>
-      </div>
-      <div className="col">
-        <button className="button" onClick={start2}>
-          <span>فاكك الشعر</span>
-        </button>
-      </div>
-      <div className="col">
-        <button className="button" onClick={start1}>
-          <span>رابط الشعر</span>
-        </button>
+        <div className="col">
+          <button className="button" onClick={start2}>
+            <span>فاكك الشعر</span>
+          </button>
+        </div>
+        <div className="col">
+          <button className="button" onClick={start1}>
+            <span>رابط الشعر</span>
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -34,6 +34,7 @@
   transition: all 0.2s;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0);
+  width: 200px;
 }
 
 .button:before,
@@ -95,4 +96,17 @@ span:after {
 .button:hover {
   color: #fff;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .button {
+    margin-bottom: 10px;
+  }
+
+  .main {
+    height: auto;
+  }
 }
